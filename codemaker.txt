@@ -1,0 +1,6 @@
+Creating a web application to read weather for different cities in Sydney
+
+$ mvn archetype:generate -DgroupId=com.au.myapp 
+	-DartifactId=weatherApp 
+	-DarchetypeArtifactId=maven-archetype-webapp 
+	-DinteractiveMode=false
