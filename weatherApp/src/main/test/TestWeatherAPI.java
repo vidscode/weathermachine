@@ -24,7 +24,7 @@ public class TestWeatherAPI extends TestCase{
     private String city;
 
     //E dd.mm.yyyy hh:mm aa
-    private SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd-MMM-yy hh.mm.ss.S aa");
+    private SimpleDateFormat simpleDateFormat = new SimpleDateFormat("E hh.mm.ss");
 
     public void setUp(){
         weather = new Weather();
@@ -74,7 +74,7 @@ public class TestWeatherAPI extends TestCase{
 
     private void displayWeather(Weather weather){
         Date date = new Date(weather.date);
-        System.out.print(" Weather information for your city : " +weather.city
+        System.out.print(" Weather information for your City : " +weather.city
                 + "\n temp: "+weather.temperature
                 + "\n wind speed: "+weather.windSpeedPerHour
                 + "\n date time: "+simpleDateFormat.format(date)

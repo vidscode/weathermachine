@@ -7,12 +7,19 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="com.au.myapp.controller" />
-
-    <bean
-            class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+    <context:component-scan base-package="com.au.myapp" />
+    <bean name="weatherRepo" class="com.au.myapp.repository.WeatherRepositoryImpl">
+        <property name="listOfCities">
+            <list>
+                <value>Sydney</value>
+                <value>Melbourne</value>
+                <value>Wollongong</value>
+            </list>
+        </property>
+    </bean>
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix">
-            <value>/WEB-INF/pages/</value>
+            <value>/WEB-INF/</value>
         </property>
         <property name="suffix">
             <value>.jsp</value>

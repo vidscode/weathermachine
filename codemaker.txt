@@ -1,6 +1,7 @@
 Creating a web application to read weather for different cities in Sydney
 
-$ mvn archetype:generate -DgroupId=com.au.myapp 
-	-DartifactId=weatherApp 
-	-DarchetypeArtifactId=maven-archetype-webapp 
-	-DinteractiveMode=false
+$ mvn archetype:generate -DgroupId=com.au.myapp -DartifactId=weatherApp -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+
+
+wget http://download.oracle.com/otn-pub/java/jdk/7u79-b15/jdk-7u79-linux-x64.tar.gz
+
