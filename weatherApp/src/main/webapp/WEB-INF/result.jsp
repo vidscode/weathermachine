@@ -10,7 +10,7 @@
 </head>
 <style>
 body  {
-    background-image: url('/weatherApp/weather.jpg');
+    background-image: url('/resources/images/weather.jpg');
     background-color: #cccccc;
 }
 </style>
