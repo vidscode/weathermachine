@@ -12,15 +12,39 @@
     <html>
     <title>Weather Information Channel</title>
     </head>
+    <style>
+    body  {
+        background-image: url('/resources/images/weather2.jpg');
+        background-color: #cccccc;
+    }
+    </style>
     <body>
-        <h2>Your Weather Information</h2>
 
-        <form:form method="POST" action="/weatherApp/findWeather">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header">
+               <a class="navbar-brand" h#">Weather Central</a>
+            </div>
+            <ul class="nav navbar-nav">
+              <li ="active"><a href="/weatherApp/City">Home</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">About Us</a> </li>
+              <li><a href="#">Best Holiday destinations</a></li>
+             </ul>
+             <ul class="nav navbar-nav navbar-right">
+              <liref="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+              <li><a href="#"><span class="glyphiconhicon-log-in"></span> Login</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="container">
+        <table style="width:400px;margin:100px;">
+        <form:form method="POST" action="/weatherApp/findWeather" role="form">
+            <tr><td>Cities:</td></tr>
              <tr>
-                <td>Please select:</td>
                 <td>
-                <div class="dropdown">
-                    <form:select path="name" onchange="this.form.submit()">
+                <div class="form-group">
+                    <form:select path="name" onchange="this.form.submit()" class="form-control">
                       <form:option value="" label="--SELECT --" />
                       <ul class="dropdown-menu">
                       <c:forEach var="city" items="${cities}" varStatus="index">
@@ -35,5 +59,7 @@
                  </td>
              </tr>
         </form:form>
+        </table>
+        </div>
     </body>
     </html>

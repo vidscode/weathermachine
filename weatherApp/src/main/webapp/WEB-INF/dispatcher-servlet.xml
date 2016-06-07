@@ -8,6 +8,7 @@
         http://www.springframework.org/schema/context/spring-context.xsd">
 
     <context:component-scan base-package="com.au.myapp" />
+
     <bean name="weatherRepo" class="com.au.myapp.repository.WeatherRepositoryImpl">
         <property name="listOfCities">
             <list>

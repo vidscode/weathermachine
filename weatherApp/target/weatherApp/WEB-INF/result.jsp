@@ -8,10 +8,29 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body style="background-image: url("/weather.jpg");">
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+       <a class="navbar-brand" h#">Weather Central</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li ="active"><a href="/weatherApp/City">Home</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">About Us</a> </li>
+      <li><a href="#">Best Holiday destinations</a></li>
+     </ul>
+     <ul class="nav navbar-nav navbar-right">
+      <liref="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphiconhicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
 <div class="container">
+
+
 
   <h2>weather in ${weather.city}</h2>
 
