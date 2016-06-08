@@ -10,11 +10,9 @@ import org.json.JSONException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
-import org.springframework.ui.Model;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 /**
@@ -66,7 +64,7 @@ public class WeatherRepositoryImpl implements WeatherRepository {
         List<City> cities = new ArrayList<>();
         for(int i = 0; i < listOfCities.size();i++){
             City city = new City();
-              city.name =listOfCities.get(i);
+            city.name =listOfCities.get(i);
             cities.add(city);
         }
         return cities;

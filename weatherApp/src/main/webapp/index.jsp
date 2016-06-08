@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <html>
 <body>
 <h2>Hello World!</h2>
@@ -28,10 +27,3 @@
 </div>
 </body>
 </html>
-=======
-<html>
-<body>
-<h2>Hello World!</h2>
-</body>
-</html>
->>>>>>> 0aebb105aced783323774a08140558aa0c604bcd
