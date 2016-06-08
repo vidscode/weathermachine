@@ -13,9 +13,11 @@ public class TestWeatherRepository extends TestCase {
 
     @Autowired
     WeatherRepositoryImpl weatherRepo;
+    Weather weather;
 
     public void setUp(){
-
+        weatherRepo = new WeatherRepositoryImpl();
+        weather = new Weather();
     }
 
     public void testGetListOfCities(){

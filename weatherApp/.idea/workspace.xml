@@ -56,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeatherRepositoryImpl.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WeatherRepositoryImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/au/myapp/repository/WeatherRepositoryImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.44919786">
+              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/test/TestWeatherRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestWeatherAPI.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestWeatherAPI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/test/TestWeatherAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41835147">
-              <caret line="74" column="32" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="77" column="60" selection-start-line="77" selection-start-column="60" selection-end-line="77" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,31 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="city.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/city.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weathermachine/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Weather.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/au/myapp/domain/Weather.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -171,8 +151,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/au/myapp/domain/Weather.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/au/myapp/repository/WeatherRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/result.jsp" />
-        <option value="$PROJECT_DIR$/src/main/test/TestWeatherRepository.java" />
         <option value="$PROJECT_DIR$/src/main/test/TestWeatherAPI.java" />
+        <option value="$PROJECT_DIR$/src/main/test/TestWeatherRepository.java" />
       </list>
     </option>
   </component>
@@ -547,7 +527,7 @@
       <recent name="D:\weathermachine\weatherApp\src\main\resources\images" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestWeatherAPI.testWeather">
+  <component name="RunManager" selected="JUnit.TestWeatherRepository.testGetWeather">
     <configuration default="false" name="TestWeatherAPI.testWeather" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="WeatherApp" />
@@ -556,6 +536,27 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestWeatherAPI" />
       <option name="METHOD_NAME" value="testWeather" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestWeatherRepository.testGetWeather" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="WeatherApp" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestWeatherRepository" />
+      <option name="METHOD_NAME" value="testGetWeather" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -847,12 +848,14 @@
       <listeners />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JUnit.TestWeatherAPI.testWeather" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestWeatherRepository.testGetWeather" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestWeatherAPI.testWeather" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestWeatherRepository.testGetWeather" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestWeatherAPI.testWeather" />
       </list>
     </recent_temporary>
   </component>
@@ -870,24 +873,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestWeatherAPI_testWeather - 2016.06.05 at 22h 03m 36s.xml">
-      <configuration name="TestWeatherAPI.testWeather" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestWeatherAPI_testWeather - 2016.06.05 at 22h 07m 49s.xml">
-      <configuration name="TestWeatherAPI.testWeather" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestWeatherAPI_testWeather - 2016.06.05 at 22h 10m 25s.xml">
-      <configuration name="TestWeatherAPI.testWeather" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestWeatherAPI_testWeather - 2016.06.05 at 22h 11m 10s.xml">
-      <configuration name="TestWeatherAPI.testWeather" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestWeatherAPI_testWeather - 2016.06.05 at 22h 12m 10s.xml">
-      <configuration name="TestWeatherAPI.testWeather" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestWeatherAPI_testWeather - 2016.06.06 at 19h 48m 13s.xml">
-      <configuration name="TestWeatherAPI.testWeather" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestWeatherAPI_testWeather - 2016.06.06 at 19h 48m 48s.xml">
       <configuration name="TestWeatherAPI.testWeather" configurationId="JUnit" />
     </history-entry>
@@ -900,9 +885,27 @@
     <history-entry file="TestWeatherAPI_testWeather - 2016.06.08 at 21h 52m 42s.xml">
       <configuration name="TestWeatherAPI.testWeather" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestWeatherRepository_testGetWeather - 2016.06.09 at 01h 08m 45s.xml">
+      <configuration name="TestWeatherRepository.testGetWeather" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestWeatherRepository_testGetWeather - 2016.06.09 at 01h 10m 26s.xml">
+      <configuration name="TestWeatherRepository.testGetWeather" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestWeatherRepository_testGetWeather - 2016.06.09 at 01h 11m 39s.xml">
+      <configuration name="TestWeatherRepository.testGetWeather" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestWeatherRepository_testGetWeather - 2016.06.09 at 01h 12m 59s.xml">
+      <configuration name="TestWeatherRepository.testGetWeather" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestWeatherRepository_testGetWeather - 2016.06.09 at 01h 13m 45s.xml">
+      <configuration name="TestWeatherRepository.testGetWeather" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestWeatherRepository_testGetWeather - 2016.06.09 at 01h 14m 19s.xml">
+      <configuration name="TestWeatherRepository.testGetWeather" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1618" height="868" extended-state="6" />
+    <frame x="-9" y="-9" width="1618" height="868" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -920,7 +923,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39792898" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39792898" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -955,6 +958,24 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/test/TestWeatherRepository.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/au/myapp/repository/WeatherRepositoryImpl.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/au/myapp/repository/WeatherRepositoryImpl.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/main/java/com/au/myapp/repository/WeatherRepositoryImpl.java</url>
           <line>25</line>
@@ -962,7 +983,7 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1307,14 +1328,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/au/myapp/domain/Weather.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/result.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1341,30 +1354,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/au/myapp/repository/WeatherRepositoryImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/test/TestWeatherAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <caret line="77" column="60" selection-start-line="77" selection-start-column="60" selection-end-line="77" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/3.8.1/junit-3.8.1.jar!/junit/framework/TestCase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8">
+          <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/reflect/InvocationTargetException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3315508">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/au/myapp/domain/Weather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/TestWeatherRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/TestWeatherAPI.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bitpipeline/lib/owm-lib/2.1.3-SNAPSHOT/owm-lib-2.1.3-20151129.081229-1.jar!/org/bitpipeline/lib/owm/OwmClient.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41835147">
-          <caret line="74" column="32" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
+        <state vertical-scroll-proportion="-4.9411764">
+          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/au/myapp/repository/WeatherRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44919786">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
