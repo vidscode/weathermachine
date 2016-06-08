@@ -1,9 +1,11 @@
 package com.au.myapp.domain;
 
+import java.util.Date;
+
 public class Weather {
     public String city;
     public float temperature;
-    public long date;
+    public Date date;
     public String description;
     public float windSpeedPerHour;
 
@@ -26,11 +28,11 @@ public class Weather {
         this.temperature = temperature;
     }
 
-    public long getDate() {
+    public Date getDate() {
         return date;
     }
 
-    public void setDate(long date) {
+    public void setDate(Date date) {
         this.date = date;
     }
 

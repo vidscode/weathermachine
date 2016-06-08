@@ -45,7 +45,6 @@ public class TestWeatherAPI extends TestCase{
             displayWeather(weather);
         }
         logger.info(" Weather in "+currentWeather.getMessage());
- //       Assert.assertEquals();
     }
 
     private Weather getWeather(){
@@ -61,7 +60,7 @@ public class TestWeatherAPI extends TestCase{
         if(weatherData!=null){
             weather.city = weatherData.getName();
             weather.description = description;
-            weather.date = weatherData.getDateTime();
+            weather.date = new Date(weatherData.getDateTime());
             weather.temperature = weatherData.getTemp();
             weather.windSpeedPerHour = weatherData.getWindSpeed();
             if(weatherData.hasRain()){
@@ -73,7 +72,7 @@ public class TestWeatherAPI extends TestCase{
     }
 
     private void displayWeather(Weather weather){
-        Date date = new Date(weather.date);
+        Date date = weather.date;
         System.out.print(" Weather information for your City : " +weather.city
                 + "\n temp: "+weather.temperature
                 + "\n wind speed: "+weather.windSpeedPerHour

@@ -16,6 +16,7 @@ body  {
 </style>
 <body style="background-image: url("weather.gif");">
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -26,10 +27,9 @@ body  {
       <li ="active"><a href="/weatherApp/City">Home</a></li>
       <li><a href="#">Contact Us</a></li>
       <li><a href="#">About Us</a> </li>
-      <li><a href="#">Best Holiday destinations</a></li>
+      <li><a href="#">Best Holiday Destinations</a></li>
      </ul>
      <ul class="nav navbar-nav navbar-right">
-      <liref="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
       <li><a href="#"><span class="glyphiconhicon-log-in"></span> Login</a></li>
     </ul>
   </div>
@@ -38,7 +38,7 @@ body  {
 
 
 
-  <h2>weather in ${weather.city}</h2>
+  <h2>Weather In ${weather.city}</h2>
 
   <table class="table table-hover">
     <thead>
@@ -52,12 +52,13 @@ body  {
       </tr>
     </thead>
     <tbody>
+    <c:set var="now" value="<%=new java.util.Date()%>" />
       <tr>
         <td>${weather.city}</td>
         <td>${weather.description}</td>
         <td>${weather.temperature}</td>
         <td>${weather.windSpeedPerHour}</td>
-        <td>${weather.date}</td>
+        <td><fmt:formatDate pattern="dd hh.mm a" value="${now}" /></td>
         <td>${weather.isItRaining}</td>
       </tr>
     </tbody>

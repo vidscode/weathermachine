@@ -24,7 +24,7 @@ public class WeatherController {
     private static final String view = "index";
 
     //E dd.mm.yyyy hh:mm aa
-    private SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd-MMM-yy hh.mm.ss.S aa");
+    private SimpleDateFormat simpleDateFormat = new SimpleDateFormat("E hh.mm.ss aa");
 
     @Autowired
     WeatherRepositoryImpl weatherRepo;
@@ -41,19 +41,9 @@ public class WeatherController {
         log.debug("City selected " + city);
         Weather weather = weatherRepo.getWeather(city.name);
         model.addAttribute("City", weather.city);
-        model.addAttribute("date", simpleDateFormat.format(weather.date));
+        model.addAttribute("date", weather.date);
         model.addAttribute("description", weather.description);
         log.debug("Weather is " + weather.description + "::" + weather.date);
         return new ModelAndView("result", "weather", weather);
-    }
-
-    private void displayWeather(Weather weather) {
-        Date date = new Date(weather.date);
-        System.out.print(" Weather information for your City : " + weather.city
-                + "\n temp: " + weather.temperature
-                + "\n wind speed: " + weather.windSpeedPerHour
-                + "\n date time: " + simpleDateFormat.format(date)
-                + "\n rain : " + weather.isItRaining
-                + "\n description: " + weather.description);
     }
 }

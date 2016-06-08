@@ -13,6 +13,7 @@ import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -48,7 +49,7 @@ public class WeatherRepositoryImpl implements WeatherRepository {
         if(weatherData!=null){
             weather.city = weatherData.getName();
             weather.description = description;
-            weather.date = weatherData.getDateTime();
+            weather.date = new Date(weatherData.getDateTime());
             weather.temperature = weatherData.getTemp();
             weather.windSpeedPerHour = weatherData.getWindSpeed();
 

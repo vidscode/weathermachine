@@ -29,10 +29,9 @@
               <li ="active"><a href="/weatherApp/City">Home</a></li>
               <li><a href="#">Contact Us</a></li>
               <li><a href="#">About Us</a> </li>
-              <li><a href="#">Best Holiday destinations</a></li>
+              <li><a href="#">Best Holiday Destinations</a></li>
              </ul>
              <ul class="nav navbar-nav navbar-right">
-              <liref="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
               <li><a href="#"><span class="glyphiconhicon-log-in"></span> Login</a></li>
             </ul>
           </div>
